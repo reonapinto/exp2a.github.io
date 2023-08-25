@@ -1,0 +1,64 @@
+body,h1,h2,p,label,input,button{
+    margin: 0;
+    padding: 0;
+}
+/*global styles*/
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  /*to set the footer to the bottom*/
+  min-height: 100vh;
+  display:flex;  
+  flex-direction: column;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align:center;
+    padding: 1rem;
+}
+main{
+    padding: 2rem;
+    text-align: center;
+    background-color: rgb(141, 130, 151);
+
+}
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: rgb(212, 204, 219);
+    color: #0c0808;
+    /*to set the footer to the bottom*/
+    margin-top: auto;
+
+}
+     
+
+/*forms*/
+.signup-form, .signin-form{
+    max-width: 300px;
+    margin: 0 auto;
+}
+label{
+    display:block;
+    margin-bottom:5px;
+}
+input{
+    width:100%;
+    padding:8px;
+    margin-bottom:10px;
+    border: 1px solid #300505;
+    border-radius: 3px;
+}
+button{
+    display: inline-block;
+    padding:8px 20px;
+    background-color: #333;
+    color:#fff;
+    border:none;
+    border-radius: 3px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: #555;
+}
